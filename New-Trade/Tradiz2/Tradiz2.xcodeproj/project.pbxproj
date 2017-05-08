@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC89BA941EC0D6F1006054DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BA931EC0D6F1006054DF /* main.m */; };
+		AC89BA971EC0D6F1006054DF /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BA961EC0D6F1006054DF /* TRAppDelegate.m */; };
+		AC89BA9D1EC0D6F1006054DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC89BA9B1EC0D6F1006054DF /* Main.storyboard */; };
+		AC89BA9F1EC0D6F1006054DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC89BA9E1EC0D6F1006054DF /* Assets.xcassets */; };
+		AC89BAA21EC0D6F1006054DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC89BAA01EC0D6F1006054DF /* LaunchScreen.storyboard */; };
+		AC89BAAD1EC0D6F2006054DF /* Tradiz2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAAC1EC0D6F2006054DF /* Tradiz2Tests.m */; };
+		AC89BAB81EC0D6F2006054DF /* Tradiz2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC89BAA91EC0D6F2006054DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC89BA871EC0D6F1006054DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC89BA8E1EC0D6F1006054DF;
+			remoteInfo = Tradiz2;
+		};
+		AC89BAB41EC0D6F2006054DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC89BA871EC0D6F1006054DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC89BA8E1EC0D6F1006054DF;
+			remoteInfo = Tradiz2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC89BA8F1EC0D6F1006054DF /* Tradiz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradiz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC89BA931EC0D6F1006054DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC89BA951EC0D6F1006054DF /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		AC89BA961EC0D6F1006054DF /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		AC89BA9C1EC0D6F1006054DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC89BA9E1EC0D6F1006054DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC89BAA11EC0D6F1006054DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC89BAA31EC0D6F1006054DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC89BAA81EC0D6F2006054DF /* Tradiz2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tradiz2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC89BAAC1EC0D6F2006054DF /* Tradiz2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tradiz2Tests.m; sourceTree = "<group>"; };
+		AC89BAAE1EC0D6F2006054DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC89BAB31EC0D6F2006054DF /* Tradiz2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tradiz2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tradiz2UITests.m; sourceTree = "<group>"; };
+		AC89BAB91EC0D6F2006054DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC89BA8C1EC0D6F1006054DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC89BAA51EC0D6F2006054DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC89BAB01EC0D6F2006054DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC89BA861EC0D6F1006054DF = {
+			isa = PBXGroup;
+			children = (
+				AC89BA911EC0D6F1006054DF /* Tradiz2 */,
+				AC89BAAB1EC0D6F2006054DF /* Tradiz2Tests */,
+				AC89BAB61EC0D6F2006054DF /* Tradiz2UITests */,
+				AC89BA901EC0D6F1006054DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC89BA901EC0D6F1006054DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BA8F1EC0D6F1006054DF /* Tradiz2.app */,
+				AC89BAA81EC0D6F2006054DF /* Tradiz2Tests.xctest */,
+				AC89BAB31EC0D6F2006054DF /* Tradiz2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC89BA911EC0D6F1006054DF /* Tradiz2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAC51EC0D757006054DF /* AppDelegate */,
+				AC89BAC81EC0D7EE006054DF /* LaunchScreen */,
+				AC89BAC61EC0D7CC006054DF /* MainStoryBoard */,
+				AC89BAC71EC0D7E0006054DF /* Assets */,
+				AC89BAC91EC0D805006054DF /* InfoPlist */,
+				AC89BA921EC0D6F1006054DF /* Supporting Files */,
+			);
+			path = Tradiz2;
+			sourceTree = "<group>";
+		};
+		AC89BA921EC0D6F1006054DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BA931EC0D6F1006054DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC89BAAB1EC0D6F2006054DF /* Tradiz2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAAC1EC0D6F2006054DF /* Tradiz2Tests.m */,
+				AC89BAAE1EC0D6F2006054DF /* Info.plist */,
+			);
+			path = Tradiz2Tests;
+			sourceTree = "<group>";
+		};
+		AC89BAB61EC0D6F2006054DF /* Tradiz2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */,
+				AC89BAB91EC0D6F2006054DF /* Info.plist */,
+			);
+			path = Tradiz2UITests;
+			sourceTree = "<group>";
+		};
+		AC89BAC51EC0D757006054DF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BA951EC0D6F1006054DF /* TRAppDelegate.h */,
+				AC89BA961EC0D6F1006054DF /* TRAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AC89BAC61EC0D7CC006054DF /* MainStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BA9B1EC0D6F1006054DF /* Main.storyboard */,
+			);
+			name = MainStoryBoard;
+			sourceTree = "<group>";
+		};
+		AC89BAC71EC0D7E0006054DF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BA9E1EC0D6F1006054DF /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AC89BAC81EC0D7EE006054DF /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAA01EC0D6F1006054DF /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		AC89BAC91EC0D805006054DF /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAA31EC0D6F1006054DF /* Info.plist */,
+			);
+			name = InfoPlist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC89BA8E1EC0D6F1006054DF /* Tradiz2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC89BABC1EC0D6F2006054DF /* Build configuration list for PBXNativeTarget "Tradiz2" */;
+			buildPhases = (
+				AC89BA8B1EC0D6F1006054DF /* Sources */,
+				AC89BA8C1EC0D6F1006054DF /* Frameworks */,
+				AC89BA8D1EC0D6F1006054DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tradiz2;
+			productName = Tradiz2;
+			productReference = AC89BA8F1EC0D6F1006054DF /* Tradiz2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC89BAA71EC0D6F2006054DF /* Tradiz2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC89BABF1EC0D6F2006054DF /* Build configuration list for PBXNativeTarget "Tradiz2Tests" */;
+			buildPhases = (
+				AC89BAA41EC0D6F2006054DF /* Sources */,
+				AC89BAA51EC0D6F2006054DF /* Frameworks */,
+				AC89BAA61EC0D6F2006054DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC89BAAA1EC0D6F2006054DF /* PBXTargetDependency */,
+			);
+			name = Tradiz2Tests;
+			productName = Tradiz2Tests;
+			productReference = AC89BAA81EC0D6F2006054DF /* Tradiz2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC89BAB21EC0D6F2006054DF /* Tradiz2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC89BAC21EC0D6F2006054DF /* Build configuration list for PBXNativeTarget "Tradiz2UITests" */;
+			buildPhases = (
+				AC89BAAF1EC0D6F2006054DF /* Sources */,
+				AC89BAB01EC0D6F2006054DF /* Frameworks */,
+				AC89BAB11EC0D6F2006054DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC89BAB51EC0D6F2006054DF /* PBXTargetDependency */,
+			);
+			name = Tradiz2UITests;
+			productName = Tradiz2UITests;
+			productReference = AC89BAB31EC0D6F2006054DF /* Tradiz2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC89BA871EC0D6F1006054DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.xinmobile.Tradiz2;
+				TargetAttributes = {
+					AC89BA8E1EC0D6F1006054DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PT974VVWNY;
+						ProvisioningStyle = Automatic;
+					};
+					AC89BAA71EC0D6F2006054DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC89BA8E1EC0D6F1006054DF;
+					};
+					AC89BAB21EC0D6F2006054DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC89BA8E1EC0D6F1006054DF;
+					};
+				};
+			};
+			buildConfigurationList = AC89BA8A1EC0D6F1006054DF /* Build configuration list for PBXProject "Tradiz2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC89BA861EC0D6F1006054DF;
+			productRefGroup = AC89BA901EC0D6F1006054DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC89BA8E1EC0D6F1006054DF /* Tradiz2 */,
+				AC89BAA71EC0D6F2006054DF /* Tradiz2Tests */,
+				AC89BAB21EC0D6F2006054DF /* Tradiz2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC89BA8D1EC0D6F1006054DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89BAA21EC0D6F1006054DF /* LaunchScreen.storyboard in Resources */,
+				AC89BA9F1EC0D6F1006054DF /* Assets.xcassets in Resources */,
+				AC89BA9D1EC0D6F1006054DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC89BAA61EC0D6F2006054DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC89BAB11EC0D6F2006054DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC89BA8B1EC0D6F1006054DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89BA971EC0D6F1006054DF /* TRAppDelegate.m in Sources */,
+				AC89BA941EC0D6F1006054DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC89BAA41EC0D6F2006054DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89BAAD1EC0D6F2006054DF /* Tradiz2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC89BAAF1EC0D6F2006054DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC89BAB81EC0D6F2006054DF /* Tradiz2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC89BAAA1EC0D6F2006054DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC89BA8E1EC0D6F1006054DF /* Tradiz2 */;
+			targetProxy = AC89BAA91EC0D6F2006054DF /* PBXContainerItemProxy */;
+		};
+		AC89BAB51EC0D6F2006054DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC89BA8E1EC0D6F1006054DF /* Tradiz2 */;
+			targetProxy = AC89BAB41EC0D6F2006054DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC89BA9B1EC0D6F1006054DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC89BA9C1EC0D6F1006054DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC89BAA01EC0D6F1006054DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC89BAA11EC0D6F1006054DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC89BABA1EC0D6F2006054DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC89BABB1EC0D6F2006054DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC89BABD1EC0D6F2006054DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT974VVWNY;
+				INFOPLIST_FILE = Tradiz2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC89BABE1EC0D6F2006054DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT974VVWNY;
+				INFOPLIST_FILE = Tradiz2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC89BAC01EC0D6F2006054DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tradiz2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tradiz2.app/Tradiz2";
+			};
+			name = Debug;
+		};
+		AC89BAC11EC0D6F2006054DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tradiz2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tradiz2.app/Tradiz2";
+			};
+			name = Release;
+		};
+		AC89BAC31EC0D6F2006054DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tradiz2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tradiz2;
+			};
+			name = Debug;
+		};
+		AC89BAC41EC0D6F2006054DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tradiz2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tradiz2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC89BA8A1EC0D6F1006054DF /* Build configuration list for PBXProject "Tradiz2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC89BABA1EC0D6F2006054DF /* Debug */,
+				AC89BABB1EC0D6F2006054DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC89BABC1EC0D6F2006054DF /* Build configuration list for PBXNativeTarget "Tradiz2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC89BABD1EC0D6F2006054DF /* Debug */,
+				AC89BABE1EC0D6F2006054DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC89BABF1EC0D6F2006054DF /* Build configuration list for PBXNativeTarget "Tradiz2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC89BAC01EC0D6F2006054DF /* Debug */,
+				AC89BAC11EC0D6F2006054DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC89BAC21EC0D6F2006054DF /* Build configuration list for PBXNativeTarget "Tradiz2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC89BAC31EC0D6F2006054DF /* Debug */,
+				AC89BAC41EC0D6F2006054DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC89BA871EC0D6F1006054DF /* Project object */;
+}
