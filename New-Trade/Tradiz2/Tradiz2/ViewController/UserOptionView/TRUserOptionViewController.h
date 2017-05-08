@@ -10,4 +10,8 @@
 
 @interface TRUserOptionViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *ibYesBtn;
+@property (strong, nonatomic) IBOutlet UIButton *ibNoBtn;  
+@property (strong, nonatomic) IBOutlet UIView *ibBgView;
+@property (strong, nonatomic) IBOutlet UIButton *ibNextStepBtn;
 @end

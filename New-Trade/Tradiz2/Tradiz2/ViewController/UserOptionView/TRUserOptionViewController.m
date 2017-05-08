@@ -16,7 +16,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initalization];
+}
+-(void)initalization{
+    
+    _ibYesBtn.layer.cornerRadius = 25;
+    _ibYesBtn.clipsToBounds = YES;
+
+    _ibNoBtn.layer.cornerRadius = 25;
+    _ibNoBtn.clipsToBounds = YES;
+    
+    _ibNextStepBtn.layer.cornerRadius = 5;
+    _ibNextStepBtn.clipsToBounds = YES;
+    
+    self.ibBgView.layer.masksToBounds = NO;
+    self.ibBgView.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.ibBgView.layer.shadowOffset = CGSizeMake(-3.0f, -3.0f);
+    self.ibBgView.layer.shadowOpacity = 0.5f;
+}
+
+-(IBAction)DidTapOnYesBtn:(id)sender{
+    _ibYesBtn.backgroundColor = [UIColor blueColor];
+    _ibNoBtn.backgroundColor = [UIColor clearColor];
+    
+}
+-(IBAction)DidTapOnNoBtn:(id)sender{
+    _ibYesBtn.backgroundColor = [UIColor clearColor];
+    _ibNoBtn.backgroundColor = [UIColor blueColor];
+}
+-(IBAction)didTapOnNextBtn:(id)sender{
+     [self performSegueWithIdentifier:@"nextStep" sender:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +53,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

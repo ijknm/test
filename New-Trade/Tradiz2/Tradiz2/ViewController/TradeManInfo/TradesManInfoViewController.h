@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TradesManInfoViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *ibNextStepBtn;
+@property (strong, nonatomic) IBOutlet UIView *ibBgView;
 
 @end
