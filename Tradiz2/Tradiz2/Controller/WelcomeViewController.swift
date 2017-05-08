@@ -28,9 +28,6 @@ class WelcomeViewController: UIViewController {
         
         fieldView.layer.borderColor = UIColor.white.cgColor
         
-        
     }
-    
-
 
 }
