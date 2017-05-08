@@ -14,6 +14,8 @@
 		AC89BAA21EC0D6F1006054DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC89BAA01EC0D6F1006054DF /* LaunchScreen.storyboard */; };
 		AC89BAAD1EC0D6F2006054DF /* Tradiz2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAAC1EC0D6F2006054DF /* Tradiz2Tests.m */; };
 		AC89BAB81EC0D6F2006054DF /* Tradiz2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */; };
+		AC89BACD1EC0DBD2006054DF /* TRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BACC1EC0DBD2006054DF /* TRBaseViewController.m */; };
+		AC89BAD21EC0DC5D006054DF /* TRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAD11EC0DC5D006054DF /* TRLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		AC89BAB31EC0D6F2006054DF /* Tradiz2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tradiz2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tradiz2UITests.m; sourceTree = "<group>"; };
 		AC89BAB91EC0D6F2006054DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC89BACB1EC0DBD2006054DF /* TRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRBaseViewController.h; path = ViewController/BaseViewController/TRBaseViewController.h; sourceTree = "<group>"; };
+		AC89BACC1EC0DBD2006054DF /* TRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRBaseViewController.m; path = ViewController/BaseViewController/TRBaseViewController.m; sourceTree = "<group>"; };
+		AC89BAD01EC0DC5D006054DF /* TRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRLoginViewController.h; path = ViewController/LoginView/TRLoginViewController.h; sourceTree = "<group>"; };
+		AC89BAD11EC0DC5D006054DF /* TRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRLoginViewController.m; path = ViewController/LoginView/TRLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 				AC89BAC51EC0D757006054DF /* AppDelegate */,
 				AC89BAC81EC0D7EE006054DF /* LaunchScreen */,
 				AC89BAC61EC0D7CC006054DF /* MainStoryBoard */,
+				AC89BACA1EC0DB92006054DF /* ViewController */,
 				AC89BAC71EC0D7E0006054DF /* Assets */,
 				AC89BAC91EC0D805006054DF /* InfoPlist */,
 				AC89BA921EC0D6F1006054DF /* Supporting Files */,
@@ -173,6 +180,33 @@
 				AC89BAA31EC0D6F1006054DF /* Info.plist */,
 			);
 			name = InfoPlist;
+			sourceTree = "<group>";
+		};
+		AC89BACA1EC0DB92006054DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BACF1EC0DBED006054DF /* LoginView */,
+				AC89BACE1EC0DBD6006054DF /* BaseViewController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		AC89BACE1EC0DBD6006054DF /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BACB1EC0DBD2006054DF /* TRBaseViewController.h */,
+				AC89BACC1EC0DBD2006054DF /* TRBaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		AC89BACF1EC0DBED006054DF /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAD01EC0DC5D006054DF /* TRLoginViewController.h */,
+				AC89BAD11EC0DC5D006054DF /* TRLoginViewController.m */,
+			);
+			name = LoginView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,8 +343,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC89BAD21EC0DC5D006054DF /* TRLoginViewController.m in Sources */,
 				AC89BA971EC0D6F1006054DF /* TRAppDelegate.m in Sources */,
 				AC89BA941EC0D6F1006054DF /* main.m in Sources */,
+				AC89BACD1EC0DBD2006054DF /* TRBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
