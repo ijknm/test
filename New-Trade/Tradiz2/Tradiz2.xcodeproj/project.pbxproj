@@ -14,8 +14,15 @@
 		AC89BAA21EC0D6F1006054DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC89BAA01EC0D6F1006054DF /* LaunchScreen.storyboard */; };
 		AC89BAAD1EC0D6F2006054DF /* Tradiz2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAAC1EC0D6F2006054DF /* Tradiz2Tests.m */; };
 		AC89BAB81EC0D6F2006054DF /* Tradiz2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */; };
-		AC89BACD1EC0DBD2006054DF /* TRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BACC1EC0DBD2006054DF /* TRBaseViewController.m */; };
 		AC89BAD21EC0DC5D006054DF /* TRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAD11EC0DC5D006054DF /* TRLoginViewController.m */; };
+		AC89BAD71EC0E704006054DF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAD61EC0E704006054DF /* MBProgressHUD.m */; };
+		AC89BADC1EC0ED32006054DF /* Camara.png in Resources */ = {isa = PBXBuildFile; fileRef = AC89BAD91EC0ED32006054DF /* Camara.png */; };
+		AC89BADD1EC0ED32006054DF /* Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = AC89BADA1EC0ED32006054DF /* Gallery.png */; };
+		AC89BADE1EC0ED32006054DF /* profileImages.png in Resources */ = {isa = PBXBuildFile; fileRef = AC89BADB1EC0ED32006054DF /* profileImages.png */; };
+		AC89BAE21EC0EF13006054DF /* TRProfileImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAE11EC0EF13006054DF /* TRProfileImageViewController.m */; };
+		AC89BAE61EC0F9BD006054DF /* TRMyDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAE51EC0F9BD006054DF /* TRMyDetailsViewController.m */; };
+		AC89BAEA1EC10411006054DF /* TRUserOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAE91EC10411006054DF /* TRUserOptionViewController.m */; };
+		AC89BAEE1EC10556006054DF /* TradesManInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89BAED1EC10556006054DF /* TradesManInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +57,21 @@
 		AC89BAB31EC0D6F2006054DF /* Tradiz2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tradiz2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC89BAB71EC0D6F2006054DF /* Tradiz2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tradiz2UITests.m; sourceTree = "<group>"; };
 		AC89BAB91EC0D6F2006054DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC89BACB1EC0DBD2006054DF /* TRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRBaseViewController.h; path = ViewController/BaseViewController/TRBaseViewController.h; sourceTree = "<group>"; };
-		AC89BACC1EC0DBD2006054DF /* TRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRBaseViewController.m; path = ViewController/BaseViewController/TRBaseViewController.m; sourceTree = "<group>"; };
 		AC89BAD01EC0DC5D006054DF /* TRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRLoginViewController.h; path = ViewController/LoginView/TRLoginViewController.h; sourceTree = "<group>"; };
 		AC89BAD11EC0DC5D006054DF /* TRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRLoginViewController.m; path = ViewController/LoginView/TRLoginViewController.m; sourceTree = "<group>"; };
+		AC89BAD51EC0E704006054DF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = Utility/MBprogressBar/MBProgressHUD.h; sourceTree = "<group>"; };
+		AC89BAD61EC0E704006054DF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = Utility/MBprogressBar/MBProgressHUD.m; sourceTree = "<group>"; };
+		AC89BAD91EC0ED32006054DF /* Camara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Camara.png; path = Assets.xcassets/Images/Camara.png; sourceTree = "<group>"; };
+		AC89BADA1EC0ED32006054DF /* Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gallery.png; path = Assets.xcassets/Images/Gallery.png; sourceTree = "<group>"; };
+		AC89BADB1EC0ED32006054DF /* profileImages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profileImages.png; path = Assets.xcassets/Images/profileImages.png; sourceTree = "<group>"; };
+		AC89BAE01EC0EF13006054DF /* TRProfileImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRProfileImageViewController.h; path = ViewController/ProfileImage/TRProfileImageViewController.h; sourceTree = "<group>"; };
+		AC89BAE11EC0EF13006054DF /* TRProfileImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRProfileImageViewController.m; path = ViewController/ProfileImage/TRProfileImageViewController.m; sourceTree = "<group>"; };
+		AC89BAE41EC0F9BD006054DF /* TRMyDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMyDetailsViewController.h; path = ViewController/MyDetailsView/TRMyDetailsViewController.h; sourceTree = "<group>"; };
+		AC89BAE51EC0F9BD006054DF /* TRMyDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMyDetailsViewController.m; path = ViewController/MyDetailsView/TRMyDetailsViewController.m; sourceTree = "<group>"; };
+		AC89BAE81EC10411006054DF /* TRUserOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRUserOptionViewController.h; path = ViewController/UserOptionView/TRUserOptionViewController.h; sourceTree = "<group>"; };
+		AC89BAE91EC10411006054DF /* TRUserOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRUserOptionViewController.m; path = ViewController/UserOptionView/TRUserOptionViewController.m; sourceTree = "<group>"; };
+		AC89BAEC1EC10556006054DF /* TradesManInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TradesManInfoViewController.h; path = ViewController/TradeManInfo/TradesManInfoViewController.h; sourceTree = "<group>"; };
+		AC89BAED1EC10556006054DF /* TradesManInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TradesManInfoViewController.m; path = ViewController/TradeManInfo/TradesManInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +128,7 @@
 				AC89BACA1EC0DB92006054DF /* ViewController */,
 				AC89BAC71EC0D7E0006054DF /* Assets */,
 				AC89BAC91EC0D805006054DF /* InfoPlist */,
+				AC89BAD31EC0E6A7006054DF /* Utility */,
 				AC89BA921EC0D6F1006054DF /* Supporting Files */,
 			);
 			path = Tradiz2;
@@ -161,6 +180,7 @@
 		AC89BAC71EC0D7E0006054DF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AC89BAD81EC0EC90006054DF /* Images */,
 				AC89BA9E1EC0D6F1006054DF /* Assets.xcassets */,
 			);
 			name = Assets;
@@ -186,18 +206,12 @@
 			isa = PBXGroup;
 			children = (
 				AC89BACF1EC0DBED006054DF /* LoginView */,
-				AC89BACE1EC0DBD6006054DF /* BaseViewController */,
+				AC89BADF1EC0EED8006054DF /* ProfileImage */,
+				AC89BAE31EC0F989006054DF /* MyDetailsView */,
+				AC89BAE71EC103E4006054DF /* UserOptionView */,
+				AC89BAEB1EC10514006054DF /* TradesmanInfo */,
 			);
 			name = ViewController;
-			sourceTree = "<group>";
-		};
-		AC89BACE1EC0DBD6006054DF /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AC89BACB1EC0DBD2006054DF /* TRBaseViewController.h */,
-				AC89BACC1EC0DBD2006054DF /* TRBaseViewController.m */,
-			);
-			name = BaseViewController;
 			sourceTree = "<group>";
 		};
 		AC89BACF1EC0DBED006054DF /* LoginView */ = {
@@ -207,6 +221,69 @@
 				AC89BAD11EC0DC5D006054DF /* TRLoginViewController.m */,
 			);
 			name = LoginView;
+			sourceTree = "<group>";
+		};
+		AC89BAD31EC0E6A7006054DF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAD41EC0E6E5006054DF /* MBProgressBar */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		AC89BAD41EC0E6E5006054DF /* MBProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAD51EC0E704006054DF /* MBProgressHUD.h */,
+				AC89BAD61EC0E704006054DF /* MBProgressHUD.m */,
+			);
+			name = MBProgressBar;
+			sourceTree = "<group>";
+		};
+		AC89BAD81EC0EC90006054DF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAD91EC0ED32006054DF /* Camara.png */,
+				AC89BADA1EC0ED32006054DF /* Gallery.png */,
+				AC89BADB1EC0ED32006054DF /* profileImages.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AC89BADF1EC0EED8006054DF /* ProfileImage */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAE01EC0EF13006054DF /* TRProfileImageViewController.h */,
+				AC89BAE11EC0EF13006054DF /* TRProfileImageViewController.m */,
+			);
+			name = ProfileImage;
+			sourceTree = "<group>";
+		};
+		AC89BAE31EC0F989006054DF /* MyDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAE41EC0F9BD006054DF /* TRMyDetailsViewController.h */,
+				AC89BAE51EC0F9BD006054DF /* TRMyDetailsViewController.m */,
+			);
+			name = MyDetailsView;
+			sourceTree = "<group>";
+		};
+		AC89BAE71EC103E4006054DF /* UserOptionView */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAE81EC10411006054DF /* TRUserOptionViewController.h */,
+				AC89BAE91EC10411006054DF /* TRUserOptionViewController.m */,
+			);
+			name = UserOptionView;
+			sourceTree = "<group>";
+		};
+		AC89BAEB1EC10514006054DF /* TradesmanInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BAEC1EC10556006054DF /* TradesManInfoViewController.h */,
+				AC89BAED1EC10556006054DF /* TradesManInfoViewController.m */,
+			);
+			name = TradesmanInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC89BAA21EC0D6F1006054DF /* LaunchScreen.storyboard in Resources */,
+				AC89BADE1EC0ED32006054DF /* profileImages.png in Resources */,
 				AC89BA9F1EC0D6F1006054DF /* Assets.xcassets in Resources */,
+				AC89BADD1EC0ED32006054DF /* Gallery.png in Resources */,
+				AC89BADC1EC0ED32006054DF /* Camara.png in Resources */,
 				AC89BA9D1EC0D6F1006054DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,10 +423,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC89BAEA1EC10411006054DF /* TRUserOptionViewController.m in Sources */,
 				AC89BAD21EC0DC5D006054DF /* TRLoginViewController.m in Sources */,
+				AC89BAEE1EC10556006054DF /* TradesManInfoViewController.m in Sources */,
+				AC89BAE61EC0F9BD006054DF /* TRMyDetailsViewController.m in Sources */,
 				AC89BA971EC0D6F1006054DF /* TRAppDelegate.m in Sources */,
+				AC89BAD71EC0E704006054DF /* MBProgressHUD.m in Sources */,
 				AC89BA941EC0D6F1006054DF /* main.m in Sources */,
-				AC89BACD1EC0DBD2006054DF /* TRBaseViewController.m in Sources */,
+				AC89BAE21EC0EF13006054DF /* TRProfileImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
