@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40891E0D1EC01C2B00266B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40891E0C1EC01C2B00266B68 /* AppDelegate.swift */; };
+		40891E0F1EC01C2B00266B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40891E0E1EC01C2B00266B68 /* ViewController.swift */; };
+		40891E121EC01C2B00266B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40891E101EC01C2B00266B68 /* Main.storyboard */; };
+		40891E141EC01C2B00266B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40891E131EC01C2B00266B68 /* Assets.xcassets */; };
+		40891E171EC01C2B00266B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40891E151EC01C2B00266B68 /* LaunchScreen.storyboard */; };
+		409611D21EC0729F005FB34B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409611D11EC0729F005FB34B /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40891E091EC01C2B00266B68 /* Tradiz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradiz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40891E0C1EC01C2B00266B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40891E0E1EC01C2B00266B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40891E111EC01C2B00266B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40891E131EC01C2B00266B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40891E161EC01C2B00266B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40891E181EC01C2B00266B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409611D11EC0729F005FB34B /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Controller/WelcomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40891E061EC01C2B00266B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40891E001EC01C2B00266B68 = {
+			isa = PBXGroup;
+			children = (
+				40891E0B1EC01C2B00266B68 /* Tradiz2 */,
+				40891E0A1EC01C2B00266B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40891E0A1EC01C2B00266B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40891E091EC01C2B00266B68 /* Tradiz2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40891E0B1EC01C2B00266B68 /* Tradiz2 */ = {
+			isa = PBXGroup;
+			children = (
+				40891E1E1EC0261F00266B68 /* Application */,
+				40891E1F1EC0262D00266B68 /* Base.lproj */,
+				40891E201EC0264000266B68 /* Controller */,
+				40891E251EC0266800266B68 /* Vendor */,
+				40891E241EC0266300266B68 /* View */,
+				40891E231EC0265A00266B68 /* Utils */,
+				40891E221EC0265100266B68 /* Helper */,
+				40891E211EC0264900266B68 /* Model */,
+				40891E181EC01C2B00266B68 /* Info.plist */,
+			);
+			path = Tradiz2;
+			sourceTree = "<group>";
+		};
+		40891E1E1EC0261F00266B68 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				40891E0C1EC01C2B00266B68 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		40891E1F1EC0262D00266B68 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				40891E101EC01C2B00266B68 /* Main.storyboard */,
+				40891E131EC01C2B00266B68 /* Assets.xcassets */,
+				40891E151EC01C2B00266B68 /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			sourceTree = "<group>";
+		};
+		40891E201EC0264000266B68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				409611D01EC07271005FB34B /* Signup */,
+				40891E0E1EC01C2B00266B68 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		40891E211EC0264900266B68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		40891E221EC0265100266B68 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		40891E231EC0265A00266B68 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		40891E241EC0266300266B68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		40891E251EC0266800266B68 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		409611D01EC07271005FB34B /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				409611D11EC0729F005FB34B /* WelcomeViewController.swift */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40891E081EC01C2B00266B68 /* Tradiz2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40891E1B1EC01C2B00266B68 /* Build configuration list for PBXNativeTarget "Tradiz2" */;
+			buildPhases = (
+				40891E051EC01C2B00266B68 /* Sources */,
+				40891E061EC01C2B00266B68 /* Frameworks */,
+				40891E071EC01C2B00266B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tradiz2;
+			productName = Tradiz2;
+			productReference = 40891E091EC01C2B00266B68 /* Tradiz2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40891E011EC01C2B00266B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Beautistar;
+				TargetAttributes = {
+					40891E081EC01C2B00266B68 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40891E041EC01C2B00266B68 /* Build configuration list for PBXProject "Tradiz2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40891E001EC01C2B00266B68;
+			productRefGroup = 40891E0A1EC01C2B00266B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40891E081EC01C2B00266B68 /* Tradiz2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40891E071EC01C2B00266B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40891E171EC01C2B00266B68 /* LaunchScreen.storyboard in Resources */,
+				40891E141EC01C2B00266B68 /* Assets.xcassets in Resources */,
+				40891E121EC01C2B00266B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40891E051EC01C2B00266B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409611D21EC0729F005FB34B /* WelcomeViewController.swift in Sources */,
+				40891E0F1EC01C2B00266B68 /* ViewController.swift in Sources */,
+				40891E0D1EC01C2B00266B68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40891E101EC01C2B00266B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40891E111EC01C2B00266B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40891E151EC01C2B00266B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40891E161EC01C2B00266B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40891E191EC01C2B00266B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40891E1A1EC01C2B00266B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40891E1C1EC01C2B00266B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tradiz2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40891E1D1EC01C2B00266B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Tradiz2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmobile.Tradiz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40891E041EC01C2B00266B68 /* Build configuration list for PBXProject "Tradiz2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40891E191EC01C2B00266B68 /* Debug */,
+				40891E1A1EC01C2B00266B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40891E1B1EC01C2B00266B68 /* Build configuration list for PBXNativeTarget "Tradiz2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40891E1C1EC01C2B00266B68 /* Debug */,
+				40891E1D1EC01C2B00266B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40891E011EC01C2B00266B68 /* Project object */;
+}
