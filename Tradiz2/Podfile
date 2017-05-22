@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target ‘Tradiz2’ do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'SVProgressHUD'
+pod 'IQKeyboardManagerSwift'
+pod 'SDWebImage', '~>3.8'
+pod 'KMPlaceholderTextView', '~> 1.3.0'
+pod 'Alamofire'
+pod 'ActionSheetPicker’
+pod 'Toaster', '~> 2.0'
+pod 'SwiftyJSON'
+pod 'SwiftyUserDefaults'
+pod 'AKMaskField'
+pod 'Cosmos'
+pod 'PopupDialog'
+end
